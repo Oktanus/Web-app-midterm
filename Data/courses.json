@@ -1,0 +1,50 @@
+[
+    {
+        "courseId":1,
+        "name":"Database Management Systems",
+        "instructor":"Tuğba Süzek",
+        "ects":6,
+        "midtermPercent":40,
+        "isTenBased": true
+    },
+    {
+        "courseId":2,
+        "name":"Mobile Application Development",
+        "instructor":"Özgür Kılıç",
+        "ects":6,
+        "midtermPercent":40,
+        "isTenBased": false
+    },
+    {
+        "courseId":3,
+        "name":"Artificial Intelligence",
+        "instructor":"Bekir Taner Dinçer",
+        "ects":6,
+        "midtermPercent":40,
+        "isTenBased": true
+    },
+    {
+        "courseId":4,
+        "name":"Web Development",
+        "instructor":"Bekir Taner Dinçer",
+        "ects":6,
+        "midtermPercent":40,
+        "isTenBased": false
+    },
+    {
+        "courseId":5,
+        "name":"Computer Networks",
+        "instructor":"Enis Karaarslan",
+        "ects":6,
+        "midtermPercent":40,
+        "isTenBased": false
+    },
+    {
+        "courseId":6,
+        "name":"Turkish",
+        "instructor":"EBUBEKİR ERASLAN",
+        "ects":2,
+        "midtermPercent":40,
+        "isTenBased": true
+    }
+]

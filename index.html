@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js" defer></script>
+    <!-- <script type="module" src="./js/students.js" defer></script> -->
+     <!-- <script type="module" src="./services/StudentService.js" defer></script>
+    <script type="module" src="./services/CourseService.js" defer></script> -->
+    <!-- <script src="./StudentData.js" defer></script>
+    <script src="./CourseData.js" defer></script> -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1 class="logo">MSKU Portal</h1>
+            <div class="user-section">
+                <img src="assets/images/avatar-svgrepo-com.svg" alt="User Avatar" class="avatar">
+                <div class="user-info">
+                    <p class="user-name">EGE BAYRAK</p>
+                    <p class="user-role">Engineering Student</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div>
+                <h3>Menu</h3>
+            </div>
+            <nav>
+                <ul>
+                  <li class="active"><a href="#" data-page="home">Home</a></li>
+                  <li><a href="#" data-page="students">Students</a></li>
+                  <li><a href="#" data-page="courses">Courses</a></li>
+                </ul>
+              </nav>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+           <div id="content" clas="scroll-div">Loding...</div> 
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <p>&copy; 2024 MSKU Student Portal</p>
+    </footer>
+</body>
+</html>

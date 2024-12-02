@@ -1,0 +1,87 @@
+<div id="students-container">
+  <div class="bottom-line">
+    <h2>Students</h2>
+  </div>
+  <div id="form-container" class="flex-column hide">
+    <!-- <span class="close">&times;</span> -->
+    <h4 id="editFormCaption">Add Student</h4>
+
+    <form id="studentForm" class="flex-column">
+      <div id="studentDiv" class="bottom-line">
+        <div id="student-id" >
+          <div class="input-container">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required />
+          </div>
+          <div class="input-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="input-container">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required />
+          </div>
+    
+        </div>
+        <div id="student-detail">
+          <div class="input-container">
+            <label for="takenCourses">Taken Courses:</label>
+            <input
+              type="text"
+              id="takenCourses"
+              name="takenCourses"
+              placeholder="Course IDs comma separated"
+            />
+          </div>
+          <div class="input-container">
+            <label for="grades">Grades:</label>
+            <input
+              type="text"
+              id="grades"
+              name="grades"
+              placeholder="Grades in format: [midterm/final, ...]"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="submit-button">
+        <button id="btnSaveStudent" class="button-15" type="button" title="Save"><i id="i-editStudent" class="material-icons icon" style="font-size:24px; cursor: pointer">save</i> Save</button>
+        <button id="btnCancelStudent" class="button-15" type="button" formnovalidate="formnovalidate" title="Save"><i id="i-editStudent" class="material-icons icon" style="font-size:24px; cursor: pointer">cancel</i> Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="search-container">
+    <div class="flex">
+      <button id="btnAddStudent" class="button-15">
+        <i id="i-editStudent" class="material-icons icon" style="font-size:24px; cursor: pointer">add</i>
+        Add New Student</button>
+    </div>
+    <input type="search" id="searchInput" placeholder="Find Student..." />
+  </div>
+
+  <div class="table-container">
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>Sıra</th>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Student ID</th>
+          <th>GPA</th>
+          <th>Taken Courses</th>
+          <th>Grades</th>
+          <th>Grade Letters</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Student data will be added here-->
+      </tbody>
+    </table>
+    <div id="content-students"></div>
+  </div>
+</div>
+
+</div>
